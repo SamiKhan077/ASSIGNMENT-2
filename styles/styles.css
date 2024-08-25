@@ -188,7 +188,7 @@ nav ul li a {
 
 .run-mile img {
     border: 1px solid transparent;
-    border-radius: 20%;
+    border-radius: 18%;
     padding-top:3%;
     padding-bottom: 3%;
     padding-left: 5%;
@@ -245,6 +245,7 @@ nav ul li a {
     border: 1px solid rgb(255, 255, 255, 0.1);
     padding: 20px;
     padding-right: 100px;
+    height: 70px;
 }
 
 .bmi-calc {
@@ -486,10 +487,6 @@ nav ul li a {
     gap: 25%;
 }
 
-.footer-div1 p {
-    width: 80% ;
-}
-
 .footer-div1 h1 {
     font-size: 70px;
     font-style: italic;
@@ -501,6 +498,7 @@ nav ul li a {
     font-size: 18px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    width: 80%;
 }
 
 .footer-div2 {
@@ -553,13 +551,31 @@ nav ul li a {
 @media screen and (min-width:425px) and ( max-width:1440px) {
     .run-mile {
         margin-left: 17%;
+        align-items: center;
     }
     .run {
         margin-left: 5%;
     }
 
+    .run h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
     .run p {
         width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .run a {
+        margin-bottom: 30px;
+    }
+
+    .run-mile img {
+        margin-top: 30px;
+        width: 387px;
+        height: 270px;
+        border-radius: 20pxh;
     }
 }
 
@@ -584,9 +600,18 @@ nav ul li a {
         display: block;
     }
 
+    .content-flex h1  {
+        width: 285px;
+    }
+
+    .content-flex p {
+        width: 330px;
+        margin-bottom: 20px;
+    }
+
     .content-flex a {
-    display: flex;
-    width: 40%;
+        width: 120px;
+        margin-top: 20%;
     }
 
 
@@ -636,5 +661,89 @@ nav ul li a {
 
     .h1-p-center {
         width: 80%;
+    }
+
+    .content-flex  {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .content-flex img {
+        width: 353px;
+        height: 588px;
+        margin-left: none;
+    }
+
+    .content-flex span {
+        display: none;
+    }
+
+    .ref-img {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .bmi {
+        margin-left: 14px;
+        width: 380px;
+    }
+
+    .bmi-chart {
+        margin-bottom:30px ;
+    }
+
+    .calculate-bmi {
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .bmi-chart {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .input-border {
+        height: 70px;
+        border-radius: 5px;
+    }
+
+    .five {
+        height: 70px;
+        border-radius: 5px;
+    }
+
+    .input a {
+        margin-bottom: 10px;
+    }
+
+    .bmi-chart td {
+        padding-right: 20px;
+        width: 300px;
+    }
+
+    .special-sec {
+        height: 300px;
+    }
+
+    .team-img {
+        margin-left: 10px;
+        margin-right:10px ;
+    }
+
+    .footer-eliment {
+        margin-left:20px ;
+        align-items: baseline;
+    }
+
+    .jerome , .gerome , .darrell , .russell , .cody , .webb {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footer-div2 , .footer-div3 {
+        margin-left: 20px;
+        padding-left: 20px;
+        align-items: start;
     }
 }
