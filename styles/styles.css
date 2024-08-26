@@ -534,6 +534,7 @@ nav ul li a {
     font-weight: 700;
     text-align: center;
     color: rgba(255, 255, 255,1);
+    width: 170px;
 }
 
 .common-h1 {
@@ -734,6 +735,7 @@ nav ul li a {
     .footer-eliment {
         margin-left:20px ;
         align-items: baseline;
+        width: 100%;
     }
 
     .jerome , .gerome , .darrell , .russell , .cody , .webb {
